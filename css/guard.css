@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colourwhite{
+    color:azure;
+}
+.style{
+    font-family: sans-serif;
+}
+.locationi svg{       /*************icon***************/
+    width: 20px;
+    fill: yellow;
+    border: 2px solid yellow;
+}
+.phone svg{            /*************icon***************/
+    width: 20px;
+    fill: yellow;
+}
+.mail svg{             /*************icon***************/
+    width: 20px;
+    fill: yellow;
+}
+.head1{
+    background-color:black;
+    text-align:left;
+    width: 32%;
+    padding: 14px;
+    float: left;
+}
+.head2{
+    background-color: black;
+    text-align:center;
+    width: 33%;
+    padding: 14px;
+    float: left;
+
+}
+.head3{
+    background-color: black;
+    text-align:right;
+    width: 35%;
+    padding: 22px;
+    float: left;
+}
+.guarder{
+    font-size: 20px;
+    font-weight: 100px;
+    float: left;
+}
+.imag{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+.list{
+    float:right;
+}
+.list ul li {
+    display: inline-block;
+    padding: 20px;
+    color: azure;
+}
+.list ul li a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: azure;
+    background-color: black;
+    padding: 20px 20px;
+}
+.banner{
+    width: 60%;
+    margin-top: 290px;
+    margin-left: 130px;
+    margin-bottom: 130px;
+}
+.your{
+    color: white;
+    font-size: 50px;
+    width: 50%;
+}
+.ours{
+    color: yellow;
+    font-size: 50px;
+    width: 50%;
+}
+.lore{
+    color: azure;
+    font-size: 20px;
+    width: 70%;
+}
+.buttonslide11{
+    padding: 17px 40px;
+    margin-top: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+.buttonslide11:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.buttonslide12{
+    padding: 17px 40px;
+    margin-top: 30px;
+    color: white;
+    background-color: yellow;
+    border: 1px solid yellow;
+    margin-left: 20px;
+}
+.buttonslide12:hover{
+    color:yellow;
+    background-color: transparent;
+    border: 1px solid yellow;
+}
+/*###################------second slide--------####################################*/
+.slide2{
+    background-color: white;
+    width: 100%;
+    padding: 132px;
+    float: left;
+}
+.photo{
+    width: 56%;
+    padding: 200px 123px;
+    background-image: url(../images/2nd-img.jpg);
+    float: left;
+}
+.words{
+    width: 41%;
+    float: left;
+    margin-left: 35px;
+}
+.head{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.button1{
+    margin-top: 40px;
+    display: inline-block;
+    padding: 17px 30px;
+    color: white;
+    background-color: yellow;
+    border: yellow;
+    font-size: 16px;  
+}
+.button1:hover{
+    color: yellow;
+    background-color: white;
+    border:1px solid yellow;  /*1.image overwrite 2.image size small*/
+}
+/*###################------third slide--------####################################*/
+.slide3{
+    width: 100%;
+    background-color: black;
+    float: left;
+    padding-bottom: 70px;
+}
+.ser{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.s3box1{
+    width: 25%;
+    color: black;
+    float: left;
+    background-color: white;
+    margin-left: 160px;
+}
+.s3box2{
+    width: 25%;
+    color: black;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+}
+.s3box3{
+    width: 25%;
+    color: black;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+}
+.s3bi img{
+    width: 20%;
+    margin-left: 145px;
+    margin-top: 20px;
+}
+.mid{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px
+}
+.mini{
+    font-size: 18px;
+    width: 79%;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.redd{
+    display: inline-block;
+    padding: 17px 30px;
+    color: white;
+    background-color: yellow;
+    border: yellow;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+}
+.redd:hover{
+    color: yellow;
+    background-color: white;
+    border:1px solid yellow;
+}
+/*###################------fourth slide--------####################################*/
+.slide4{
+    width: 100%;
+    background-color: white;
+    float: left;
+    margin-bottom: 50px;
+}
+.s4topic{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 71px;
+
+}
+.leftarrow{
+    float: left;
+    width: 5%;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.leftarrow:hover{
+    color: white;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+.center{
+    float: left;
+    width: 75%;
+    margin-left: 50px;
+}
+.pic img{
+    height: 114px;
+    width: 17%;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.min{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 390px;
+}
+.content{
+    font-size: 18px;
+    width: 94%;
+    text-align: center;
+}
+.rightarrow{
+    float: left;
+    width: 5%;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 150px;
+}
+.rightarrow:hover{
+    color: white;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+/*###################------fifth slide--------####################################*/
+.slide5{
+    float: left;
+    width: 100%;
+    background-image: url(../images/contact-bg.jpg)
+}
+.s5topic{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 71px;
+}
+.iname{
+    padding: 20px;
+    text-align: center;
+    size: 10px;
+    height: 10px;
+}
+/*###################------sixth slide--------####################################*/
+.slide6{
+    width: 100%;
+    background-color: white;
+    float: left;
+    padding-bottom: 20px;
+}
+.s6topic{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    float: left;
+    margin-top: 50px;
+}
+.s6mid{
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 160px;
+    margin-top: 50px;
+    float: left;
+}
+.s66{
+    float: left;
+    width: 100%;
+}
+.s6i1 img{
+    float: left;
+    margin-top: 50px;
+    width: 23%;
+    margin-left: 170px;;
+}
+.s6i2 img{
+    float: left;
+    margin-top: 50px;
+    width: 23%;
+    margin-left: 45px;
+}
+.s6i3 img{
+    float: left;
+    margin-top: 50px;
+    width: 23%;
+    margin-left: 45px;
+}
+.detailss{
+    float: left;
+}
